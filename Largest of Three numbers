@@ -1,0 +1,11 @@
+print(f"Largest of Three numbers \n ")
+
+a = int(input("Input First number "))
+b = int(input("Input Second number "))
+c = int(input("Input Third number "))
+if a >= b and a >= c:
+    print(f"The Largest number {a}")
+elif b >= a and b >= c:
+    print(f"The Largest number {b}")
+else:
+    print(f"The Largest is {c}")
